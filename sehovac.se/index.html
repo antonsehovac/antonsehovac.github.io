@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Anton Šehovac - sehovac.se</title>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="/assets/css/main.css"/>
+		<meta name="keywords" content="Anton,Šehovac,Developer,System,Scripter">
+		<meta name="author" content="Anton Šehovac">
+		<link rel="canonical" href="http://sehovac.se/">
+		<link href="assets/css/all.min.css" rel="stylesheet"> <!--load all styles -->
+	</head>
+	<body class="is-loading">
+		<div id="wrapper">
+			<section id="main">
+				<header>
+					<span class="avatar"><img src="assets/images/avatar.jpg" alt=""/></span>
+					<h1>Anton Šehovac</h1>
+					<p>System Developer, Programmer</p>
+				</header>
+				<footer>
+					<a href="mailto:anton@sehovac.se">anton@sehovac.se</a>
+				</footer>
+			</section>
+			<footer id="footer">
+				<ul class="copyright">
+					<li>&copy; 2021 Anton Šehovac</li>
+					<li><a href="http://sehovac.se/">sehovac.se</a></li>
+				</ul>
+			</footer>
+		</div>
+
+		<script>
+			if ('addEventListener' in window) {
+				window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+				document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+			}
+		</script>
+	</body>
+</html>
